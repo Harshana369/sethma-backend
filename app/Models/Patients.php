@@ -5,12 +5,15 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Customer extends Model
+class Patients extends Model
 {
     use HasFactory;
-    protected $table = 'customers';
+
+    protected $table = 'patients';
     protected $fillable = [
+        'nic',
         'name',
+        'year',
         'address',
         'phone',
         'email',
