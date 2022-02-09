@@ -16,7 +16,6 @@ class AppoimentController extends Controller
             'doctor_id' => 'required',
             'patient_id' => 'required',
             'doctor_schedule_id' => 'required',
-            'appoiment_number' => 'required',
             'appoiment_time' => 'required',
         ]);
 

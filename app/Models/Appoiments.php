@@ -14,7 +14,6 @@ class Appoiments extends Model
         'doctor_id',
         'patient_id',
         'doctor_schedule_id',
-        'appoiment_number',
         'appoiment_time',
     ];
 }

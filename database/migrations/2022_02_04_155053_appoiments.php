@@ -18,7 +18,6 @@ class Appoiments extends Migration
             $table->unsignedBigInteger('doctor_id');
             $table->unsignedBigInteger('patient_id');
             $table->unsignedBigInteger('doctor_schedule_id');
-            $table->string('appoiment_number');
             $table->Time('appoiment_time');
             $table->foreign('doctor_id')
                 ->references('id')->on('doctors')->onDelete('cascade');

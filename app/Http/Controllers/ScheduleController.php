@@ -19,9 +19,10 @@ class ScheduleController extends Controller
             'average_consultation_time' => 'required',
         ]);
        return Schedules::create($request->all());
-    }
 
-    
+}
+
+
     public function index(){
         return Schedules::all();
     }
